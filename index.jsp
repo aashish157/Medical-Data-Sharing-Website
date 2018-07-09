@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap Example</title>
+    <title>Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
@@ -18,7 +18,16 @@
     <!--Background image-->
     <img src="resources/images/medbg1.jpg" style="background-size: cover;     
     background-attachment:fixed;width: 100%;background-repeat: no-repeat;">
-
+    <!--search bar div-->
+    <div class="col-md-12 row search-div">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <form action="/Search" method="post">
+                <input id="search-bar" type="text" name="search" placeholder="Search Disease or Medication and press Enter">
+            </form>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
 
     <div class="container">
         <h3>Collapsible Navbar</h3>
