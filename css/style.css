@@ -100,3 +100,21 @@
 /* Change the background color of the dropdown button when the dropdown content is shown 
 .dropdown:hover .dropbtn {background-color: red;}*/
 
+/*search bar css */
+.search-div{margin-top: -32%;margin-bottom: 30%;}
+#search-bar{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #5D6D7E;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #F7F9F9;
+    opacity: 0.95;
+    background-image: url('res/images/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    color: #2C3E50;
+}

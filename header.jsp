@@ -33,36 +33,40 @@
   
     <!--header navbar-->
     <nav class="navbar navbar-expand-md navbar-light sticky-top">
-        <img src="resources/images/logo.png" class="logo">
+        <img src="res/images/logo.png" class="logo">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-links" style="text-decoration: none;" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-links" style="text-decoration: none;" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-links" style="text-decoration: none;" href="#">Services</a>
-                </li> 
-                <li class="nav-item">
-                    <a class="nav-links" style="text-decoration: none;" href="#">Contact</a>
-                </li> 
-                <div class="dropdown">
+        <div class="collapse navbar-collapse " id="collapsibleNavbar">
+            <div class="col-md-10">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-links dropbtn" style="text-decoration: none" href="#">Dropdown ⭣</a>
+                        <a class="nav-links" style="text-decoration: none;" href="#">Home</a>
                     </li>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </div>      
-            </ul>
-        </div>  
+                    <li class="nav-item">
+                        <a class="nav-links" style="text-decoration: none;" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-links" style="text-decoration: none;" href="#">Services</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-links" style="text-decoration: none;" href="#">Contact</a>
+                    </li> 
+                    <div class="dropdown">
+                        <li class="nav-item">
+                            <a class="nav-links dropbtn" style="text-decoration: none" href="#">Dropdown ⭣</a>
+                        </li>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>  
+                </ul> 
+            </div>
+            <div class="col-md-2"><a class="nav-links" style="text-decoration: none" href="loginSignUp.jsp"> Login / Signup</a></div>
+        </div>
+        
     </nav>
 </body>
 </html>
