@@ -1,16 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"  %>
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Login / Sign Up</title>
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-</head>
-<body>
-		<!------ Include the above in your HEAD tag ---------->
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
     <div class="container">    
         <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
@@ -24,7 +15,7 @@
 
                         <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
                             
-                        <form id="loginform" class="form-horizontal" role="form" action="LoginForm" method="post">
+                        <form id="loginform" class="form-horizontal" role="form">
                                     
                             <div style="margin-bottom: 25px" class="input-group">
                                         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -38,25 +29,21 @@
                                     
 
                                 
-                            <!--div class="input-group">
+                            <div class="input-group">
                                       <div class="checkbox">
                                         <label>
                                           <input id="login-remember" type="checkbox" name="remember" value="1"> Remember me
                                         </label>
                                       </div>
-                                    </div-->
+                                    </div>
 
 
                                 <div style="margin-top:10px" class="form-group">
                                     <!-- Button -->
 
                                     <div class="col-sm-12 controls">
-                                      <button id="btn-login" class="btn btn-success" type="submit" style="width: 150px;">Login</button>
-                                    </div>
-
-                                    <div class="col-sm-12 controls" style="margin-top:10px;">   
-                                      <button id="btn-gmaillogin" class="btn btn-danger" type="submit" style="width: 150px;">Login with Gmail</button>
-                                      <button id="btn-fblogin" class="btn btn-primary" type="submit" style="width: 150px;">Login with Facebook</button>
+                                      <a id="btn-login" href="#" class="btn btn-success">Login  </a>
+                                      <a id="btn-fblogin" href="#" class="btn btn-primary">Login with Facebook</a>
 
                                     </div>
                                 </div>
@@ -86,8 +73,8 @@
                             <div style="float:right; font-size: 85%; position: relative; top:-10px"><a id="signinlink" href="#" onclick="$('#signupbox').hide(); $('#loginbox').show()">Sign In</a></div>
                         </div>  
                         <div class="panel-body" >
-                            <form id="signupform" class="form-horizontal" role="form" action="SignUpForm" method="post">
-                                 
+                            <form id="signupform" class="form-horizontal" role="form">
+                                
                                 <div id="signupalert" style="display:none" class="alert alert-danger">
                                     <p>Error:</p>
                                     <span></span>
@@ -117,21 +104,21 @@
                                 <div class="form-group">
                                     <label for="password" class="col-md-3 control-label">Password</label>
                                     <div class="col-md-9">
-                                        <input type="password" class="form-control" name="password" placeholder="Password">
+                                        <input type="password" class="form-control" name="passwd" placeholder="Password">
                                     </div>
                                 </div>
                                     
-                                <!--div class="form-group">
+                                <div class="form-group">
                                     <label for="icode" class="col-md-3 control-label">Invitation Code</label>
                                     <div class="col-md-9">
                                         <input type="text" class="form-control" name="icode" placeholder="">
                                     </div>
-                                </div-->
+                                </div>
 
                                 <div class="form-group">
                                     <!-- Button -->                                        
                                     <div class="col-md-offset-3 col-md-9">
-                                        <button id="btn-signup" type="submit" class="btn btn-info"><i class="icon-hand-right"></i> &nbsp Sign Up</button>
+                                        <button id="btn-signup" type="button" class="btn btn-info"><i class="icon-hand-right"></i> &nbsp Sign Up</button>
                                         <span style="margin-left:8px;">or</span>  
                                     </div>
                                 </div>
@@ -139,12 +126,8 @@
                                 <div style="border-top: 1px solid #999; padding-top:20px"  class="form-group">
                                     
                                     <div class="col-md-offset-3 col-md-9">
-                                        <button id="btn-gmailsignup" type="button" class="btn btn-danger" style="width: 175px"><i class="icon-gmail"></i>   Sign Up with Gmail</button>
-                                    </div>                                     
-
-                                    <div class="col-md-offset-3 col-md-9">
-                                        <button id="btn-fbsignup" type="button" class="btn btn-primary" style="width: 175px;margin-top: 2px;"><i class="icon-facebook"></i>   Sign Up with Facebook</button>
-                                    </div> 
+                                        <button id="btn-fbsignup" type="button" class="btn btn-primary"><i class="icon-facebook"></i>   Sign Up with Facebook</button>
+                                    </div>                                           
                                         
                                 </div>
                                 
@@ -159,14 +142,4 @@
                 
          </div> 
     </div>
-
-    <div class="container">
-    	<div class="col-md-3"></div>
-    	<div class="col-md-6" align="right">
-    		<a href="index.jsp" style="font-size: 15px;text-decoration: none"></span><- Back To Home</a>
-    	</div>
-    	<div class="col-md-3"></div>
-    </div>
     
-</body>
-</html>

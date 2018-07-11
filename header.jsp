@@ -33,7 +33,7 @@
   
     <!--header navbar-->
     <nav class="navbar navbar-expand-md navbar-light sticky-top">
-        <img src="resources/images/logo.png" class="logo">
+        <img src="res/images/logo.png" class="logo">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>

@@ -16,7 +16,7 @@
     <!--Include Header-->
     <%@ include file="header.jsp" %>
     <!--Background image-->
-    <img src="resources/images/medbg1.jpg" style="background-size: cover;     
+    <img src="res/images/medbg1.jpg" style="background-size: cover;     
     background-attachment:fixed;width: 100%;background-repeat: no-repeat;">
     <!--search bar div-->
     <div class="col-md-12 row search-div">

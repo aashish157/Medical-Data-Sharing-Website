@@ -1,0 +1,42 @@
+<web-app>
+	<servlet>
+	  	<servlet-name>Search</servlet-name>
+	  	<servlet-class>Search</servlet-class>
+	</servlet>
+	    
+	<servlet-mapping>
+	  	<servlet-name>Search</servlet-name>
+	  	<url-pattern>/Search</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	  	<servlet-name>Input</servlet-name>
+	  	<servlet-class>Input</servlet-class>
+	</servlet>
+	    
+	<servlet-mapping>
+	  	<servlet-name>Input</servlet-name>
+	  	<url-pattern>/Input</url-pattern>
+	</servlet-mapping>	
+
+	<servlet>
+	  	<servlet-name>LoginForm</servlet-name>
+	  	<servlet-class>LoginForm</servlet-class>
+	</servlet>
+	    
+	<servlet-mapping>
+	  	<servlet-name>LoginForm</servlet-name>
+	  	<url-pattern>/LoginForm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	  	<servlet-name>SignUpForm</servlet-name>
+	  	<servlet-class>SignUpForm</servlet-class>
+	</servlet>
+	    
+	<servlet-mapping>
+	  	<servlet-name>SignUpForm</servlet-name>
+	  	<url-pattern>/SignUpForm</url-pattern>
+	</servlet-mapping>
+
+</web-app>
