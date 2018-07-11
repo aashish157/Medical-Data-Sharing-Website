@@ -23,7 +23,7 @@
         <div class="col-md-3"></div>
         <div class="col-md-6">
             <form action="Search" method="post">
-                <input id="search-bar" type="text" name="search" placeholder="Search Disease or Medication and press Enter">
+                <input id="search-bar" type="text" name="search" placeholder=" Search Disease or Medication and press Enter">
             </form>
         </div>
         <div class="col-md-3"></div>
