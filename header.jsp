@@ -64,7 +64,7 @@
                     </div>  
                 </ul> 
             </div>
-            <div class="col-md-2">Login / Signup</div>
+            <div class="col-md-2"><a class="nav-links" style="text-decoration: none" href="loginSignUp.jsp"> Login / Signup</a></div>
         </div>
         
     </nav>

@@ -20,51 +20,19 @@
     background-attachment:fixed;width: 100%;background-repeat: no-repeat;">
     <!--search bar div-->
     <div class="col-md-12 row search-div">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-            <form action="/Search" method="post">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <form action="Search" method="post">
                 <input id="search-bar" type="text" name="search" placeholder="Search Disease or Medication and press Enter">
             </form>
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-md-3"></div>
     </div>
 
-    <div class="container">
-        <h3>Collapsible Navbar</h3>
-        <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
-        <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-        <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
-    </div>
-    <div class="container">
-        <h3>Collapsible Navbar</h3>
-        <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
-        <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-        <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
-    </div>
-    <div class="container">
-        <h3>Collapsible Navbar</h3>
-        <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
-        <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-        <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
-    </div>
-    <div class="container">
-        <h3>Collapsible Navbar</h3>
-        <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
-        <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-        <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
-    </div>
-    <div class="container">
-        <h3>Collapsible Navbar</h3>
-        <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
-        <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-        <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
-    </div>
-    <div class="container">
-        <h3>Collapsible Navbar</h3>
-        <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
-        <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-        <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
-    </div>
+    <br>
+
+
+
 </body>
 </html>
 
