@@ -11,6 +11,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+     <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> 
+
+   
 </head>
 <body>
     <!--Include Header-->
@@ -29,8 +36,127 @@
         <div class="col-md-3"></div>
     </div>
 
-    <br>
+     <!--About US-->
+     <div class="jumbotron" id="test3" style="background-color: #5B1815; opacity: 0.9; color:#D9D9D9; margin-top: -15px;">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-3" style="margin-top:55px;">
+          <h2>About Us</h2>
+            </div>
+            <div class="col-md-6" style="margin-top:15px;">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis accumsan mi. Nulla facilisi. Nulla tempus ligula facilisis nibh pretium porttitor. Sed pulvinar mi lacinia aliquet malesuada. Integer nulla risus, pretium ut sem eget, molestie vulputate magna. Vivamus ut lacus sit amet lorem porttitor suscipit. Praesent volutpat velit et massa volutpat, vel bibendum est consequat.
+          </p>
+            </div>
+            <div class="col-md-3" style="margin-top:55px;">
+                <div class="btn-group">
+                    <a href="" class="btn btn-md col-xs-4" style="border-radius: 2px;">More--></a>
+                </div>
+            </div>
+          </div>
+        </div>
+     </div>
 
+
+
+
+     <!--comments roll over-->
+      <div class="container">
+        <section>
+          <div class="page-header" id="gallary">
+            <h2>Gallary<small>Check out the awesome gallary</small></h2>
+          </div>
+
+          <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#screenshot-carousel" data-slide-to="0" class="active">
+              </li>
+              <li data-target="#screenshot-carousel" data-slide-to="1">
+              </li>
+              <li data-target="#screenshot-carousel" data-slide-to="2">
+              </li>
+              <li data-target="#screenshot-carousel" data-slide-to="3">
+              </li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="" height="1000px" width="900px" alt="image text">
+                <div class="carousel-caption">
+                  <h3>correct this image</h3>
+                </div>
+              </div>
+              <div class="item">
+                <img src= height="1000px" width="900px" alt="image text">
+                <div class="carousel-caption">
+                  <h3>correct this image</h3>
+                </div>
+              </div>
+              <div class="item">
+                <img src="" height="1000px" width="900px" alt="image text">
+                <div class="carousel-caption">
+                  <h3>correct this image</h3>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="" height="1000px" width="900px" alt="image text" align="center">
+                <div class="carousel-caption">
+                  <h3>correct this image</h3>
+                </div>
+              </div>
+            </div>
+            <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+        </section>
+      </div>
+
+
+     <!--Gallery-->
+     <div class="container">
+         <section>
+             <div class="row">
+            <div class="col-lg-4" style="border-radius: 4px; border-width: 4px;">
+              <div class="panel panel-default text-center">
+                <div class="panel-body">
+                  <span class="glyphicon glyphicon-star"> </span>
+                  <h4>This is the Heading</h4>
+                  <p>Quisque ac massa libero. Quisque feugiat sagittis purus, et tristique risus malesuada vitae. Etiam venenatis ac nisi a vehicula. Fusce consequat orci sed justo bibendum cursus. Vivamus sed venenatis augue. Suspendisse at purus a arcu ornare maximus.               
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="panel panel-default text-center">
+                <div class="panel-body">
+                  <span class="glyphicon glyphicon-star"> </span>
+                  <h4>This is the Heading</h4>
+                  <p>Quisque ac massa libero. Quisque feugiat sagittis purus, et tristique risus malesuada vitae. Etiam venenatis ac nisi a vehicula. Fusce consequat orci sed justo bibendum cursus. Vivamus sed venenatis augue. Suspendisse at purus a arcu ornare maximus.               
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="panel panel-default text-center">
+                <div class="panel-body">
+                  <span class="glyphicon glyphicon-star "> </span>
+                  <h4>This is the Heading</h4>
+                  <p>Quisque ac massa libero. Quisque feugiat sagittis purus, et tristique risus malesuada vitae. Etiam venenatis ac nisi a vehicula. Fusce consequat orci sed justo bibendum cursus. Vivamus sed venenatis augue.                      
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+         </section>
+     </div>
+    
+      <!-- Latest compiled and minified JavaS
+cript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
 </body>
