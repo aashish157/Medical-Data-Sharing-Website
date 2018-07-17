@@ -67,18 +67,27 @@
         </div>
         <div class="col-md-4 treatment">
           <img src="res/images/alo.jpg" class="treatment_images">
+          <div class="text_over">
+            <h3>Allopathy</h3>
+          </div>
           <div class="overlay">
             <div class="text" id="allo"><q>Allopathic medicine is an expression commonly used to refer to modern scientific systems of medicine, such as the use of pharmacologically active agents or physical interventions to treat or suppress symptoms or pathophysiologic processes of diseases or conditions, by proponents of alternative medicine.</q></div>
           </div>
         </div>
         <div class="col-md-4 treatment"> 
           <img src="res/images/ayu.jpg" class="treatment_images">
+          <div class="text_over">
+            <h3>Ayurvedic</h3>
+          </div>
           <div class="overlay">
             <div class="text" id="ayur"><q>Ayurvedic medicine is a system of healing that originated in ancient India. In Sanskrit, ayur means life or living, and veda means knowledge, so Ayurveda has been defined as the "knowledge of living" or the "science of longevity." Ayurvedic medicine utilizes diet, detoxification and purification techniques, herbal and mineral remedies, yoga, breathing exercises, meditation, and massage therapy as holistic healing methods. Ayurvedic medicine is widely practiced in modern India and has been steadily gaining followers in the West.</q></div>
           </div>
         </div>
         <div class=" col-md-4 treatment">
           <img src="res/images/homeo.jpg" class="treatment_images">
+          <div class="text_over">
+            <h3>Homeopathy</h3>
+          </div>
           <div class="overlay">
             <div class="text" id="homeo"><q>Homeopathy is a system of complementary medicine in which ailments are treated by minute doses of natural substances that in larger amounts would produce symptoms of the ailment.</q></div>
           </div>
