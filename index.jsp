@@ -18,7 +18,8 @@
     <%@ include file="header.jsp" %>
     <!--Background image-->
     <img src="res/images/medbg1.jpg" style="background-size: cover;     
-    background-attachment:fixed;width: 100%;background-repeat: no-repeat;">
+    background-attachment:fixed;width: 100%;background-repeat: no-repeat;background-image: linear-gradient(90deg,#33D3F0,#280ABA);
+   ">
     <!--search bar div-->
     <div class="col-md-12 row search-div">
         <div class="col-md-3"></div>
@@ -30,7 +31,61 @@
         <div class="col-md-3"></div>
     </div>
 
+     <!--quotes-->
+     <div class="quotes">
+       <div class="row">
+         <div class=""></div>
+       </div>
+     </div>
+
      <!--About US-->
+     <div class="about-us">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>--We As The Helper--</h1>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <p>Every one of us will face a medical crisis at some time in our lives. When the need arises, We need a helper to guide us to comfort, clarity, and the best way forward to an optimal medical outcome.</p>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-12">
+          <div class="btn btn-md btn-warning" ><a href="#">more</a></div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!--forms_of_treatments-->
+    <div class="forms_of_treatments text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <br>
+          <br>
+          <h4>--We Collect Data On the Basis Of 3 Main Streams--</h4>
+          <br>
+        </div>
+        <div class="col-md-4 treatment">
+          <img src="res/images/alo.jpg" class="treatment_images">
+          <div class="overlay">
+            <div class="text" id="allo"><q>Allopathic medicine is an expression commonly used to refer to modern scientific systems of medicine, such as the use of pharmacologically active agents or physical interventions to treat or suppress symptoms or pathophysiologic processes of diseases or conditions, by proponents of alternative medicine.</q></div>
+          </div>
+        </div>
+        <div class="col-md-4 treatment"> 
+          <img src="res/images/ayu.jpg" class="treatment_images">
+          <div class="overlay">
+            <div class="text" id="ayur"><q>Ayurvedic medicine is a system of healing that originated in ancient India. In Sanskrit, ayur means life or living, and veda means knowledge, so Ayurveda has been defined as the "knowledge of living" or the "science of longevity." Ayurvedic medicine utilizes diet, detoxification and purification techniques, herbal and mineral remedies, yoga, breathing exercises, meditation, and massage therapy as holistic healing methods. Ayurvedic medicine is widely practiced in modern India and has been steadily gaining followers in the West.</q></div>
+          </div>
+        </div>
+        <div class=" col-md-4 treatment">
+          <img src="res/images/homeo.jpg" class="treatment_images">
+          <div class="overlay">
+            <div class="text" id="homeo"><q>Homeopathy is a system of complementary medicine in which ailments are treated by minute doses of natural substances that in larger amounts would produce symptoms of the ailment.</q></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--
      <div class="jumbotron" id="test3" style="background-color: #5B1815; opacity: 0.9; color:#D9D9D9; margin-top: -15px;">
         <div class="container text-center">
           <div class="row">
@@ -43,112 +98,77 @@
             </div>
             <div class="col-md-3" style="margin-top:55px;">
                 <div class="btn-group">
-                    <a href="" class="btn btn-md col-xs-4" style="border-radius: 2px;">More--></a>
-                </div>
+                    <a href="" class="btn btn-default btn-md col-xs-4" style="border-radius: 
+
+
+<!--
+     <div class="container" style=" width: 100%; height: auto;"> 
+       <div class="row">
+         <div class="col-md-12 text-center" >
+           <h1>Our Services</h1>
+         </div>
+         <div class="col-md-3 text-center" >
+           <h3>Cancer</h3>
+         </div>
+         <div class="col-md-3 text-center">
+           <h3>Migraine</h3>
+         </div>
+         <div class="col-md-3 text-center">
+           <h3>Heart Attack</h3>
+         </div>
+         <div class="col-md-3 text-center">
+           <h3>diabetes</h3>
+         </div>
+       </div>
+     </div>
+
+
+     <div class="jumbotron">
+           <img src="res/images/medbg1.jpg" alt="About_us" style="background-size: cover;     
+            background-attachment:fixed;width: 100%;background-repeat: no-repeat;">
+            <div class="col-sm-5">
+              <h2>When It Matters Most</h2>
             </div>
-          </div>
+            <div class="col-sm-7">
+            </div>
+            <div class="col-sm-4">
+              <p></p>
+            </div>
+         </div>
+       </div>
+     </div>
+
+
+     
+       <div class="jumbotron About_us">
+         <img src="res/images/about-us.jpg" alt="About_us" style="background-size: cover;     
+    background-attachment:fixed;width: 104.6%;background-repeat: no-repeat;margin-left: -30px;" >
+         <div class="heading"><h1>--We As The Helper--</h1></div>
+         <div class="about_sec">Every one of us will face a medical crisis at some time in our lives. When the need arises,<br> We need a helper to guide us to comfort, clarity, and<br>the best way forward to an optimal medical outcome.</div>      
+       </div>
+
+
+       <div>
+         <img src="res/images/medbg1.jpg" class="back_image">
+         <div class="col-md-12 row Text_about_us">
+           <div class="col-md-3"></div>
+           <div class="heading text-center col-md-6">
+             <h1>--We As The Helper--</h1>
+           </div>
+           <div class="col-md-3"></div>
+         </div>
+         <div class="col-md-12 row search-div">
+         <div class="col-md-3"></div>
+         <div class="col-md-6">
+            <form action="Search" method="post">
+                <input id="search-bar" type="text" name="search" placeholder=" Search Disease or Medication and press Enter">
+            </form>
         </div>
-     </div>
-
-
-
-
-     <!--comments roll over-->
-      <div class="container">
-        <section>
-          <div class="page-header" id="gallary">
-            <h2>Gallary<small>Check out the awesome gallary</small></h2>
-          </div>
-
-          <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#screenshot-carousel" data-slide-to="0" class="active">
-              </li>
-              <li data-target="#screenshot-carousel" data-slide-to="1">
-              </li>
-              <li data-target="#screenshot-carousel" data-slide-to="2">
-              </li>
-              <li data-target="#screenshot-carousel" data-slide-to="3">
-              </li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="item active">
-                <img src="" height="1000px" width="900px" alt="image text">
-                <div class="carousel-caption">
-                  <h3>correct this image</h3>
-                </div>
-              </div>
-              <div class="item">
-                <img src= height="1000px" width="900px" alt="image text">
-                <div class="carousel-caption">
-                  <h3>correct this image</h3>
-                </div>
-              </div>
-              <div class="item">
-                <img src="" height="1000px" width="900px" alt="image text">
-                <div class="carousel-caption">
-                  <h3>correct this image</h3>
-                </div>
-              </div>
-
-              <div class="item">
-                <img src="" height="1000px" width="900px" alt="image text" align="center">
-                <div class="carousel-caption">
-                  <h3>correct this image</h3>
-                </div>
-              </div>
-            </div>
-            <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-          </div>
-        </section>
-      </div>
-
-
-     <!--Gallery-->
-     <div class="container">
-         <section>
-             <div class="row">
-            <div class="col-lg-4" style="border-radius: 4px; border-width: 4px;">
-              <div class="panel panel-default text-center">
-                <div class="panel-body">
-                  <span class="glyphicon glyphicon-star"> </span>
-                  <h4>This is the Heading</h4>
-                  <p>Quisque ac massa libero. Quisque feugiat sagittis purus, et tristique risus malesuada vitae. Etiam venenatis ac nisi a vehicula. Fusce consequat orci sed justo bibendum cursus. Vivamus sed venenatis augue. Suspendisse at purus a arcu ornare maximus.               
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="panel panel-default text-center">
-                <div class="panel-body">
-                  <span class="glyphicon glyphicon-star"> </span>
-                  <h4>This is the Heading</h4>
-                  <p>Quisque ac massa libero. Quisque feugiat sagittis purus, et tristique risus malesuada vitae. Etiam venenatis ac nisi a vehicula. Fusce consequat orci sed justo bibendum cursus. Vivamus sed venenatis augue. Suspendisse at purus a arcu ornare maximus.               
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="panel panel-default text-center">
-                <div class="panel-body">
-                  <span class="glyphicon glyphicon-star "> </span>
-                  <h4>This is the Heading</h4>
-                  <p>Quisque ac massa libero. Quisque feugiat sagittis purus, et tristique risus malesuada vitae. Etiam venenatis ac nisi a vehicula. Fusce consequat orci sed justo bibendum cursus. Vivamus sed venenatis augue.                      
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-         </section>
-     </div>
-    
-
-
+        <div class="col-md-3"></div>
+    </div>
+       </div>
+    -->
+     
 </body>
 </html>
 

@@ -101,7 +101,6 @@
 .dropdown:hover .dropbtn {background-color: red;}*/
 
 /*search bar css */
-.search-div{margin-top: -32%;margin-bottom: 30%;}
 #search-bar{
     width: 100%;
     box-sizing: border-box;
@@ -117,4 +116,98 @@
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     color: #2C3E50;
+}
+
+.search-div{margin-top: -32%;margin-bottom: 30%;}
+
+/*.About_us {
+    position: relative;
+    text-align: center;
+    color: #262626;
+}
+
+.heading {
+    position: absolute;
+    top: -100%;
+    left: 15%;
+    transform: translate(-50%, -100%);
+}
+.about_sec {
+    position: absolute;
+    text-align: left;
+    top: 30%;
+    left: 34%;
+    transform: translate(-50%, -50%); 
+    font-weight: 4px;
+    font-size: 125%;
+}
+
+.back_image {
+  background-size: cover;     
+  background-attachment:fixed;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+}*/
+.about-us{
+  text-align: center;
+  background:  linear-gradient(90deg,#33D3F0,#280ABA);
+  color: #FFFFFF;
+  margin-top: -24px;
+}
+.forms_of_treatments{
+  text-align: center;
+  background: linear-gradient(90deg,#33D3F0,#280ABA);
+  color: #FFFFFF;
+}
+
+.treatment {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.treatment:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.treatment:hover .treatment_images {
+  opacity: 0.4;
+}
+
+.text {
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+#allo{
+  color: #2B2B2B;
+}
+
+#ayur {
+  color: black;
+  font-size: 13px;
+}
+
+#homeo {
+  color: #D4D4D4;
 }
