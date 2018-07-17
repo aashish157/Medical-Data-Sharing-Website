@@ -94,6 +94,17 @@
         </div>
       </div>
     </div>
+
+
+    <!--services we provide-->
+    <div class="services">
+      <div class="row">
+        <div class="col-md-12">
+          
+        </div>
+        
+      </div>
+    </div>
     <!--
      <div class="jumbotron" id="test3" style="background-color: #5B1815; opacity: 0.9; color:#D9D9D9; margin-top: -15px;">
         <div class="container text-center">
