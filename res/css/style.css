@@ -223,3 +223,9 @@
 .treatment:hover .text_over{
   opacity: 0;
 }
+
+.services {
+  background: linear-gradient(90deg,#33D3F0,#280ABA);
+  text-align: center;
+  color: white;
+}
