@@ -13,6 +13,38 @@
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     
 </head>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
 <body>
     <!--Include Header-->
     <%@ include file="header.jsp" %>
@@ -50,7 +82,7 @@
         </div>
         <div class="col-md-4"></div>
         <div class="col-md-12">
-          <div class="btn btn-md btn-warning" ><a href="#">more</a></div>
+          <a href="#"><button class="button btn"><span>more</span></button></a>
         </div>
       </div>
     </div>
@@ -106,11 +138,353 @@
           <br>
           <h3>--Have A Look Over Our Panels--</h3>
           <br>
-          <br>
+        </div>
+        <div class="col-md-2">
+          <a href="#">
+            <img src="res/images/cancer-care(1).png" class="services_image">
+            <h5 class="service_heading">Cancer</h5>
+            
+          </a>
+        </div>
+        <div class="col-md-2">
+          <a href="#">
+            <img src="res/images/diabetic.png" class="services_image">
+            <h5 class="service_heading">Diabetes & <br>Blood Pressure</h5>
+          </a>
+        </div>
+        <div class="col-md-2">
+          <a href="#">
+            <img src="res/images/heart.png" class="services_image">
+            <h5 class="service_heading">Heart Diseases</h5>
+          </a>
+        </div>
+        <div class="col-md-2">
+          <a href="#">
+            <img src="res/images/neurosciences.png" class="services_image">
+            <h5 class="service_heading">Migraine & <br>Brain Diseases</h5>
+          </a>
+        </div>
+        <div class="col-md-2">
+          <a href="#">
+            <img src="res/images/orthopaedics.png" class="services_image">
+            <h5 class="service_heading">Bone Diseases</h5>
+          </a>
+        </div>
+        <div class="col-md-2">
+          <a href="#">
+            <img src="res/images/spine.png" class="services_image">
+            <h5 class="service_heading">Nervous System Disorder</h5>
+          </a>
+        </div>
+        <div class="col-md-12">
+          <a href="#"><button class="button btn"><span>more</span></button></a>
         </div>
         
       </div>
     </div>
+
+
+
+    <!--Patience reports-->
+    <div class="reports">
+      <div class="row">
+<!--Feedback heading-->        
+        <div class="col-md-12">
+          <br>
+          <br>
+          <br>
+          <br>
+          <h3>--Feedbacks--</h3>
+          <br>
+        </div>
+         <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="carding">
+          <div class="col-md-12">
+            <h5>-Cancer-</h5>
+          </div><!--disease heading-->
+          <div class="col-md-12 report_card">
+            <div class="row">
+
+              <!--card1-->
+              <div class="column">
+                <div class="card">
+                  <div class="container">
+                    <h2>Allopathy</h2>
+                    <p class="title_card">Writen by-- Mr. Xyz Abc</p>
+                    <div class="card_para">
+                      <p>Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem....</p></div>
+                    <p><button class="button_card">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+
+              <!--card2-->  
+              <div class="column">
+                <div class="card">
+                  <div class="container">
+                    <h2>Ayurvedic</h2>
+                    <p class="title_card">Writen by-- Mr. Xyz Abc</p>
+                    <div class="card_para">
+                      <p>Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem....</p>
+                    </div>
+                    <p><button class="button_card">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+
+              <!--card3-->
+              <div class="column">
+                <div class="card">
+                  <div class="container">
+                    <h2>Homeopathy</h2>
+                    <p class="title_card">Writen by-- Mr. Xyz Abc</p>
+                    <div class="card_para">
+                      <p> Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem....</p>
+                    </div>
+                    <p><button class="button_card">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div><!--card area ending-->
+
+        </div><!--carding end-->
+  </div>
+
+<div class="mySlides fade">
+  <div class="carding">
+          <div class="col-md-12">
+            <h5>-Cancer-</h5>
+          </div><!--disease heading-->
+          <div class="col-md-12 report_card">
+            <div class="row">
+
+              <!--card1-->
+              <div class="column">
+                <div class="card">
+                  <div class="container">
+                    <h2>Allopathy</h2>
+                    <p class="title_card">Writen by-- Mr. Xyz Abc</p>
+                    <div class="card_para">
+                      <p>Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem....</p></div>
+                    <p><button class="button_card">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+
+<!--card2-->  
+              <div class="column">
+                <div class="card">
+                  <div class="container">
+                    <h2>Ayurvedic</h2>
+                    <p class="title_card">Writen by-- Mr. Xyz Abc</p>
+                    <div class="card_para">
+                      <p>Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem....</p>
+                    </div>
+                    <p><button class="button_card">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+
+              <!--card3-->
+              <div class="column">
+                <div class="card">
+                  <div class="container">
+                    <h2>Homeopathy</h2>
+                    <p class="title_card">Writen by-- Mr. Xyz Abc</p>
+                    <div class="card_para">
+                      <p> Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem....</p>
+                    </div>
+                    <p><button class="button_card">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div><!--card area ending-->
+
+        </div><!--carding end-->
+  </div>
+
+<div class="mySlides fade">
+  <div class="carding">
+          <div class="col-md-12">
+            <h5>-Cancer-</h5>
+          </div><!--disease heading-->
+          <div class="col-md-12 report_card">
+            <div class="row">
+
+              <!--card1-->
+              <div class="column">
+                <div class="card">
+                  <div class="container">
+                    <h2>Allopathy</h2>
+                    <p class="title_card">Writen by-- Mr. Xyz Abc</p>
+                    <div class="card_para">
+                      <p>Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem....</p></div>
+                    <p><button class="button_card">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+
+              <!--card2-->  
+              <div class="column">
+                <div class="card">
+                  <div class="container">
+                    <h2>Ayurvedic</h2>
+                    <p class="title_card">Writen by-- Mr. Xyz Abc</p>
+                    <div class="card_para">
+                      <p>Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem....</p>
+                    </div>
+                    <p><button class="button_card">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+
+              <!--card3-->
+              <div class="column">
+                <div class="card">
+                  <div class="container">
+                    <h2>Homeopathy</h2>
+                    <p class="title_card">Writen by-- Mr. Xyz Abc</p>
+                    <div class="card_para">
+                      <p> Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem....</p>
+                    </div>
+                    <p><button class="button_card">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div><!--card area ending-->
+
+        </div><!--carding end-->
+  </div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+
+      </div>
+    </div><!--reports ending-->
+
+
+
+
+  <!--Medical Blog-->
+    <div class="Blogs">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <br>
+          <br>
+          <br>
+          <br>
+          <h3>--Blogs--</h3>
+          <br>
+        </div>
+
+        <div id="blog-section">
+      <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+
+              <a class="blog-item first" href="#" title="Suspendisse potenti">
+                <div class="blog-item-img" style="background-image: url(https://static.pexels.com/photos/60324/pexels-photo-60324-medium.jpeg);"></div>
+                <div class="blog-item-content">
+                  <span class="blog-item-label">Blog</span>
+                  <span class="blog-item-date">
+                    <span class="blog-item-date-day">30</span>
+                    <span class="blog-item-date-month">Sept</span>
+                  </span>
+                  <h3>Nulla vehicula porttitor lorem</h3>
+                  <p>Curabitur sagittis mauris ex, non congue enim sagittis et...</p>
+                </div>
+              </a>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+
+              <a class="blog-item second" href="#" title="Suspendisse potenti">
+                <div class="blog-item-img" style="background-image: url(https://static.pexels.com/photos/185764/pexels-photo-185764-medium.jpeg);"></div>
+                <div class="blog-item-content">
+                  <span class="blog-item-label">News</span>
+                  <span class="blog-item-date">
+                    <span class="blog-item-date-day">18</span>
+                    <span class="blog-item-date-month">Aug</span>
+                  </span>
+                  <h3>In quis neque sed velit sodales interdum</h3>
+                  <p>Sed id turpis auctor, vulputate turpis fringilla, volutpat mi. Donec felis enim...</p>
+                </div>
+              </a>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+
+              <a class="blog-item third" href="#" title="Suspendisse potenti">
+                <div class="blog-item-img" style="background-image: url(https://static.pexels.com/photos/30587/pexels-photo-30587-medium.jpg);"></div>
+                <div class="blog-item-content">
+                  <span class="blog-item-label">Blog</span>
+                  <span class="blog-item-date">
+                    <span class="blog-item-date-day">09</span>
+                    <span class="blog-item-date-month">Aug</span>
+                  </span>
+                  <h3>Sed a nulla a felis imperdiet vestibulum</h3>
+                  <p>Donec blandit vestibulum ipsum, eu facilisis erat. Praesent libero nulla, feugiat quis libero id...</p>
+                </div>
+              </a>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+
+              <a class="blog-item fourth" href="#" title="Suspendisse potenti">
+                <div class="blog-item-img" style="background-image: url(https://static.pexels.com/photos/116191/pexels-photo-116191-medium.jpeg);"></div>
+                <div class="blog-item-content">
+                  <span class="blog-item-label">News</span>
+                  <span class="blog-item-date">
+                    <span class="blog-item-date-day">7</span>
+                    <span class="blog-item-date-month">Jul</span>
+                  </span>
+                  <h3>Vivamus convallis varius ipsum quis</h3>
+                  <p>In facilisis mi sed ligula congue ullamcorper. Donec tempus porttitor ultricies...</p>
+                </div>
+              </a>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+
+              <div class="buttonContainer">
+                <a class="button" href="#" title="Show more"><span>Show more</span></a>
+              </div>
+
+            </div>
+
+          </div>
+
+      </div>
+    </div>
+
+      </div>  
+    </div>
+    </div>
+ 
+
+
+
+
+    
+
+
     <!--
      <div class="jumbotron" id="test3" style="background-color: #5B1815; opacity: 0.9; color:#D9D9D9; margin-top: -15px;">
         <div class="container text-center">
